@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert Cleaning</title>
+    <link rel="icon" type="image/x-icon" href="./images/Logo.png">
+
+    <!-- Linkedin Website link -->
+    <meta property="og:title" content="Expert Cleaning Website">
+    <meta property="og:description" content="A responsive cleaning service website built using HTML, CSS, Bootstrap, and JavaScript.">
+    <meta property="og:image" content="https://jineshkhalas.github.io/Expert-Cleaning-Website/images/Logo.png">
+    <meta property="og:url" content="https://jineshkhalas.github.io/Expert-Cleaning-Website/">
+    <meta property="og:type" content="website">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section class="header">
+        <header>
+            <div class="container-fluid, head-content">
+                <div class="row, header-bar" id="header-bar">
+                    <div class="col-md-3, head-left">
+                        <img src="./images/Logo.png" alt="Logo" class="Logo">
+                    </div>
+                    <div class="col-md-9, head-right">
+                        <ul class="nav fw-bold" id="head-nav-ul">
+                            <li class="nav-item , head-nav">
+                                <a class="nav-link text-light " href="#">Home</a>
+                            </li>
+                            <li class="nav-item, head-nav">
+                                <a class="nav-link text-light" href="#">About</a>
+                            </li>
+                            <li class="nav-item, head-nav">
+                                <a class="nav-link text-light" href="#">Services</a>
+                            </li>
+                            <li class="nav-item, head-nav">
+                                <a class="nav-link text-light" href="#">Location</a>
+                            </li>
+                            <li class="nav-item, head-nav">
+                                <a class="nav-link text-light " href="#">Contact</a>
+                            </li>
+                            <li class="nav-item, head-nav">
+                                <a class="nav-link text-light" href="../index.html">Sign Up / Sign In</a>
+                            </li>
+                            <li class="nav-item, head-nav">
+                                <a class="nav-link text-light me-2" id="head-l-nav" href="#">Instant Quote</a>
+                            </li>
+                        </ul>
+                        <div class="head-dropdown">
+                            <button class="menu-btn">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="index1.html">Home</a>
+                                <a href="#">About</a>
+                                <a href="#">Services</a>
+                                <a href="#">Location</a>
+                                <a href="#">Contact</a>
+                                <a href="#">Sign Up / Sign In</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <section class="Banner-section">
+        <div class="container-fluid, banner-img-outer">
+            <div class="banner-container">
+                <img src="./images/Banner.png" alt="Banner" class="Banner">
+            </div>
+            <div class="Banner-text">
+                <div class="s-dialogue">
+                    <p class="text-warning fw-bold mb-4, yel-head">— FAST AND RELIABLE</p>
+                </div>
+                <div class="heading">
+                    <h1 class="text-light fw-bold mb-2" id="heading">The Perfect <br id="br1"
+                            style="visibility: visible;">Clean Guaranteed</h1>
+                </div>
+                <div class="head-para">
+                    <p class="text-light w-20" id="head-text">
+                        At {{Company Name}} , our locally owned house cleaning service will make your
+                        home sparkle with our detailed cleaning and personalized touch.
+                        We are so confident in our expertise we offer a Satisfaction Guarantee.
+                    </p>
+                </div>
+                <div class="sub-points">
+                    <div class="row">
+                        <ul class=" heading-ul">
+                            <li>
+                                <div class="s-p text-light">
+                                    <img src="./images/tick-mark bullets.png" alt="tick-mark" class="tick-mark">
+                                    <p class="sb-para">100% Satisfaction Guaranteed</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="s-p text-light">
+                                    <img src="./images/tick-mark bullets.png" alt="tick-mark" class="tick-mark">
+                                    <p class="sb-para">Trained Experts & Premium Supplies</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="s-p text-light">
+                                    <img src="./images/tick-mark bullets.png" alt="tick-mark" class="tick-mark">
+                                    <p class="sb-para">VIP Customer Support SMS / Email</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <button class="inst-Quote-btn">Instant Quote</button>
+                    </div>
+                </div>
+            </div>
+            <div class="blank-space">
+
+            </div>
+            <div class="banner-btm-part">
+                <div class="banner-btm bg-primary">
+                    <div class="tag-user">
+                        <div class="tag-1">
+                            <div class="comp-text text-light">
+                                <p class="text-warning fw-bold" id="tag-para-1">— TRUSTED BY PEOPLE LIKE YOU</p>
+                                <p class="tag-text fw-bold" id="tag-para-2">LOVE OUR WORK OR <br id="br2"
+                                        style="visibility: visible;">YOUR MONEY BACK</p>
+                            </div>
+                        </div>
+                        <div class="user1">
+                            <div class="user-rating" id="rate-1">
+                                <div class="user-img">
+                                    <img src="./images/sample-user.png" alt="user-img" class="user-img">
+                                </div>
+                                <div class="user-feedback" id="fbdk-1">
+                                    <div class="star-div">
+                                        <img src="./images/5star rating.png" alt="rating" class="star-rate">
+                                    </div>
+                                    <div class="fdbk1-para">
+                                        <p class="text-light fw-bold" id="fdbk1-para-1">I won’t ever use another company
+                                        </p>
+                                        <p class="text-light" id="fdbk1-para-2">
+                                            In just 2 hours they were able to clean
+                                            my 1bd 1ba and it looked incredible.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="AboutUs-Section">
+        <div class="AboutUs-text-img">
+            <div class="Ab-text-container">
+                <div class="Ab-header">
+                    <p class="about-title">About Us</p>
+                    <p class="about-text-heading">We Provide Best Cleaning Service Provider</p>
+                </div>
+                <div class="about-para">
+                    <p class="Ab-text">
+                        At {{Company Name}}, we are more than just a cleaning service—we are a family-owned business
+                        committed to delivering top-tier home and commercial cleaning with a personal touch.
+                        We believe a clean space is the foundation of a happy and healthy environment,
+                        which is why our dedicated team goes above and beyond to ensure every corner shines.
+                    </p>
+                    <p class="AB-text">
+                        With years of experience, we take pride in our values of trust, reliability, and meticulous
+                        attention to detail.
+                        Whether you need a one-time deep clean or routine maintenance, we customize our services to fit
+                        your lifestyle and schedule.
+                        Our team treats your home or business with the same level of care as we would our own, using
+                        industry-leading techniques and eco-friendly products to provide a spotless, fresh, and
+                        welcoming space.
+                    </p>
+                    <button class="AbU-btn text-light fw-bold ">Learn More</button>
+                </div>
+            </div>
+            <div class="Ab-img-container">
+                <img src="./images/Ab-img.png" alt="Ab-img" class="Ab-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="mobile-use-section">
+        <div class="mobile-user-container">
+            <div class="mobile-part">
+                <div class="mobile-container">
+                    <img src="./images/mobilephone.png" alt="mobilephone" class="mobile">
+                    <!-- data-aos="fade-down-right" -->
+                </div>
+            </div>
+            <div class="userServiceText-container">
+                <div class="mob-service-text">
+                    <p class="service-heading">Book On the Ego</p>
+                    <p class="service-text text-secondary">
+                        Our services are mobile-friendly!
+                        You can easily book a clean from your mobile phone or tablet,
+                        just as conveniently as from your computer.
+                    </p>
+                </div>
+                <div class="user2">
+                    <div class="user-rating" id="rate-2">
+                        <div class="user-img">
+                            <img src="./images/sample-user.png" alt="user-img" class="user-img">
+                        </div>
+                        <div class="user-feedback" id="fbdk-2">
+                            <div class="star-div">
+                                <img src="./images/5star rating.png" alt="rating" class="star-rate">
+                            </div>
+                            <div class="fdbk2-para">
+                                <p class="text-dark fw-bold" id="fdbk2-para-1">I won’t ever use another company</p>
+                                <p class="text-dark" id="fdbk2-para-2">In just 2 hours they were able to clean my 1bd
+                                    1ba and it looked incredible.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust-serve-section">
+        <div class="trust-3Serve-outer">
+            <div class="trust-container">
+                <p class="trust-heading fw-bold">Trust Is EVERYTHING To Us</p>
+                <p class="trust-para text-secondary text-center ">
+                    Our proficient cleaners utilize high-quality tools and
+                    eco-friendly products to deliver thorough house cleaning.
+                    Dedicated to excellence, we ensure every nook and cranny receives meticulous attention.
+                    Our commitment to quality guarantees a gleaming finish that surpasses all expectations.
+                    We prioritize customer contentment by consistently delivering exceptional cleaning results.
+                    Each cleaning session is tailored to meet the unique needs and preferences of our clients.
+                    Our thorough approach ensures every surface is left spotless, enhancing the overall ambiance of your
+                    home.
+                </p>
+            </div>
+            <div class="serve-container">
+                <div class="serve-box">
+                    <p class="servebox-heading fw-bold">ONE-TIME CLEANING</p>
+                    <p class="serve-para text-secondary text-center">
+                        Experience the best cleaning experience in the area!
+                        Our skilled professionals deliver meticulous,
+                        eco-friendly cleaning with top-notch tools, ensuring your home sparkles
+                        like never before. Satisfaction guaranteed!
+                    </p>
+                </div>
+                <div class="serve-box">
+                    <p class="servebox-heading fw-bold text-center">RECURRING CLEANING <br> (SPECIAL PRICING)</p>
+                    <p class="serve-para text-secondary text-center ">
+                        Our recurring cleaning services ensure your home or office stays fresh and immaculate,
+                        without the stress of constant upkeep. Whether you need weekly, bi-weekly, or
+                        monthly cleanings, we offer flexible plans tailored to fit your schedule and needs.
+                    </p>
+                </div>
+                <div class="serve-box">
+                    <p class="servebox-heading fw-bold">MOVE IN / MOVE OUT</p>
+                    <p class="serve-para text-secondary text-center">
+                        Come home to a brand new space. Rely on our exceptional deep cleaning to exceed expectations.
+                        Our professionals meticulously clean your previous or new home with quality tools and
+                        eco-friendly products, leaving it immaculately spotless.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="satis-section">
+        <div class="satis-div">
+            <div class="satis-text-container">
+                <p class="satis-heading fw-bold">Our Satisfaction Guarantee</p>
+                <p class="satis-text text-secondary">
+                    We stand behind the quality of our cleaning services with a 100% satisfaction guarantee.
+                    If you're not completely satisfied with any aspect of our cleaning, we promise to come back and make
+                    it right. There will be no additional cost to you; ensuring your satisfaction is our priority.
+                </p>
+            </div>
+            <button class="satis-instQ-btn">Instant Quote</button>
+        </div>
+    </section>
+
+    <section class="cleanProcess-section">
+        <div class="clean-process-container">
+            <div class="c-p-head-cont">
+                <p class="c-p-heading fw-bold">Our Cleaning Process. Book Now</p>
+            </div>
+            <div class="c-p-content">
+                <div class="c3process">
+                    <div class="c-p-icons">
+                        <img src="./images/Book.png" alt="BookCP" class="CP-Icon">
+                    </div>
+                    <div class="c-p-text">
+                        <div class="c-p-texthead fw-bold">BOOK</div>
+                        <div class="c-p-para text-center text-secondary fw-bold">
+                            <p>Book A Cleaning In 60 Seconds. Get A Quick Quote.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c3process">
+                    <div class="c-p-icons">
+                        <img src="./images/Clean.png" alt="CleanCP" class="CP-Icon">
+                    </div>
+                    <div class="c-p-text">
+                        <div class="c-p-texthead fw-bold">CLEAN</div>
+                        <div class="c-p-para text-center text-secondary fw-bold">
+                            <p>Expert Cleaners You Can Trust.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c3process">
+                    <div class="c-p-icons">
+                        <img src="./images/Repeat.png" alt="RepeatCP" class="CP-Icon">
+                    </div>
+                    <div class="c-p-text">
+                        <div class="c-p-texthead fw-bold">REPEAT</div>
+                        <div class="c-p-para text-center text-secondary fw-bold">
+                            <p>Save Cash When You Book Recurring Cleans.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Cust-Plan-section">
+        <div class="Cust-Plan-container">
+            <div class="CPlan-Text-container">
+                <p class="C-Plan-heading text-center fw-bold">Create Your Custom Tailored <br class="C-Plan-br"> Cleaning Plan.</p>
+                <p class="C-Plan-text text-center text-secondary">
+                    Create a cleaning plan that fits your home perfectly! With our customizable cleaning services,
+                    you can choose the frequency, focus areas, and cleaning preferences that match your household’s
+                    needs. Whether you need a deep clean, specific rooms prioritized, or eco-friendly products, we
+                    tailor our services to ensure your space stays fresh and spotless—just the way you like it!
+                </p>
+                <p class="CPlan-instQ-btn text-center">Instant Quote</p>
+            </div>
+
+            <div class="CPlan-Card-Container">
+                <div class="CPlan-Card">
+                    <img src="./images/Appliances.png" alt="Appliances" class="CP-Card-img">
+                    <div class="CPlan-Card-text">
+                        <p class="CPlan-Card-Heading fw-bold">Appliances</p>
+                        <p class="CPlan-Card-para text-center text-secondary">
+                            We use only high-quality, manufacturer-recommended products that are specifically designed
+                            for luxury appliances. These products are gentle yet effective, ensuring that your
+                            appliances are cleaned thoroughly without any risk of damage or corrosion.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="CPlan-Card">
+                    <img src="./images/Baseboards.png" alt="Baseboards" class="CP-Card-img">
+                    <div class="CPlan-Card-text">
+                        <p class="CPlan-Card-Heading fw-bold">Baseboards</p>
+                        <p class="CPlan-Card-para text-center text-secondary">
+                            Our baseboard cleaning process is designed to restore and maintain the elegance of your
+                            home. We pay meticulous attention to detail, ensuring every inch of your baseboards is free
+                            from dust, dirt, and grime, enhancing the overall look of your living spaces.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="CPlan-Card">
+                    <img src="./images/Woodfloors.png" alt="Woodfloors" class="CP-Card-img">
+                    <div class="CPlan-Card-text">
+                        <p class="CPlan-Card-Heading fw-bold">Wood Floors</p>
+                        <p class="CPlan-Card-para text-center text-secondary">
+                            We understand that wood floors require a delicate balance of thorough cleaning and careful
+                            maintenance to preserve their beauty and longevity. Our approach is tailored to provide a
+                            deep clean while protecting the natural finish and character of your wood floors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Join-Comm-section">
+        <div class="Join-Comm-container">
+            <div class="JComm-heading-container">
+                <p class="JComm-heading fw-bold">Join The Community</p>
+            </div>
+            <div class="JComm-Icon-container">
+                <img src="./images/Google-review.png" alt="Google-review" class="review-icon">
+                <img src="./images/FB-review.png" alt="FB-review" class="review-icon">
+                <img src="./images/Yelp-review.png" alt="Yelp-review" class="review-icon">
+            </div>
+        </div>
+    </section>
+
+    <section class="score-whyUs-section">
+        <div class="score-whyUs-container">
+            <div class="C-score">
+                <div class="score-rate-box">
+                    <p class="score fw-bold">2k+</p>
+                    <p class="score-heading fw-bold">CLEANING</p>
+                    <p class="score-text text-secondary text-center">Over 2,000 jobs completed.</p>
+                </div>
+                <div class="score-rate-box">
+                    <p class="score fw-bold">500+</p>
+                    <p class="score-heading fw-bold">HAPPY CLIENTS</p>
+                    <p class="score-text text-secondary text-center">Built on the foundation of quality and trust. </p>
+                </div>
+                <div class="score-rate-box">
+                    <p class="score fw-bold">100%*</p>
+                    <p class="score-heading fw-bold">CLIENT SATISFACTION</p>
+                    <p class="score-text text-secondary text-center">Our 5 star reviews speak for themselves. </p>
+                </div>
+            </div>
+
+            <div class="whyUs">
+                <div class="whyUs-img">
+                    <img src="./images/whyUs-img.png" alt="whyUs-img" class="whyUs-img">
+                </div>
+                <div class="whyUs-text">
+                    <div class="whyUs-heading fw-bold">Why Choose Us: Built on <br> Strong Global Partnerships</div>
+                    <div class="whyUs-content">
+                        <div class="whyUs-points-container">
+                            <div class="whyUs-icons">
+                                <img src="./images/whyUs-p1.png" alt="whyUs-p1" class="WU-icon">
+                            </div>
+                            <div class="whyUs-points">
+                                <p class="fw-bold">VIP Booking & Fast Communication</p>
+                                <p class="text-secondary">Work with a dedicated account rep via SMS, Phone, or Email.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="whyUs-points-container">
+                            <div class="whyUs-icons">
+                                <img src="./images/whyUs-p2.png" alt="whyUs-p2" class="WU-icon">
+                            </div>
+                            <div class="whyUs-points">
+                                <p class="fw-bold">Free Evaluation Of Your Cleaning Needs</p>
+                                <p class="text-secondary">Expert Cleaners You Can Trust.</p>
+                            </div>
+                        </div>
+                        <div class="whyUs-points-container">
+                            <div class="whyUs-icons">
+                                <img src="./images/whyUs-p3.png" alt="whyUs-p3" class="WU-icon">
+                            </div>
+                            <div class="whyUs-points">
+                                <p class="fw-bold">Regularly Schedule & Save</p>
+                                <p class="text-secondary">Save big on recurring cleanings.</p>
+                            </div>
+                        </div>
+                        <div class="whyUs-points-container">
+                            <div class="whyUs-icons">
+                                <img src="./images/whyUs-p4.png" alt="whyUs-p4" class="WU-icon">
+                            </div>
+                            <div class="whyUs-points">
+                                <p class="fw-bold">100% Satisfaction Guarantee </p>
+                                <p class="text-secondary">We will come back and make things right. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="call-price-section">
+        <div class="call-price-container">
+            <div class="CPrice-heading-container">
+                <p class="CPrice-heading text-center fw-bold">Customized Cleaning Plans at <br> Great Prices</p>
+            </div>
+            <div class="CPrice-card-container">
+                <div class="CPrice-card" id="Commercial">
+                    <div class="CPrice-card-header">
+                        <p class="CPrice-type">Commercial</p>
+                        <p class="CPrice-card-heading fw-bold">Call Us</p>
+                        <p class="CPrice-heading-text fw-bold">For Business</p>
+                    </div>
+                    <div class="CPrice-content">
+                        <div class="CPrice-Points-container">
+                            <p class="CPrice-points text-center text-secondary">Vacation Rentals</p>
+                            <p class="CPrice-points text-center text-secondary">Office Spaces</p>
+                            <p class="CPrice-points text-center text-secondary">Commercial Businesses</p>
+                            <p class="CPrice-points text-center text-secondary">...more!</p>
+                        </div>
+                        <button class="CPrice-btn fw-bold" style="color: white; background-color: #0964CD;">Contact
+                            Us</button>
+                    </div>
+                </div>
+                <div class="CPrice-card" id="Residential">
+                    <div class="CPrice-card-header">
+                        <p class="CPrice-type">Residential</p>
+                        <p class="CPrice-card-heading fw-bold">$99</p>
+                        <p class="CPrice-heading-text fw-bold">Starting At</p>
+                    </div>
+                    <div class="CPrice-content">
+                        <div class="CPrice-Points-container">
+                            <p class="CPrice-points text-center">VIP Account Rep</p>
+                            <p class="CPrice-points text-center">Expert Cleaner</p>
+                            <p class="CPrice-points text-center">Premium Supplies</p>
+                            <p class="CPrice-points text-center">Pre and Post Walk Through</p>
+                            <p class="CPrice-points text-center">100% Satisfaction Guarantee</p>
+                            <p class="CPrice-points text-center">Trust Is Our #1 Priority</p>
+                        </div>
+                        <button class="CPrice-btn fw-bold" style="color: #0964CD;; background-color: white">Contact
+                            Us</button>
+                    </div>
+                </div>
+                <div class="CPrice-card" id="Recurring">
+                    <div class="CPrice-card-header">
+                        <p class="CPrice-type">Recurring</p>
+                        <p class="CPrice-card-heading fw-bold">Call Us</p>
+                        <p class="CPrice-heading-text fw-bold">Most Popular</p>
+                    </div>
+                    <div class="CPrice-content">
+                        <div class="CPrice-Points-container">
+                            <p class="CPrice-points text-center text-secondary">VIP Account Rep</p>
+                            <p class="CPrice-points text-center text-secondary">Expert Cleaner</p>
+                            <p class="CPrice-points text-center text-secondary">Premium Supplies</p>
+                            <p class="CPrice-points text-center text-secondary">Pre and Post Walk Through</p>
+                            <p class="CPrice-points text-center text-secondary">100% Satisfaction Guarantee</p>
+                            <p class="CPrice-points text-center text-secondary">Trust Is Our #1 Priority</p>
+                            <p class="CPrice-points text-center text-secondary">Special Pricing</p>
+                        </div>
+                        <button class="CPrice-btn fw-bold" style="color: white; background-color: #0964CD;">Contact
+                            Us</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="before-after-section">
+        <div class="before-after-container">
+            <div class="bef-aft-textcontainer">
+                <p class="b-a-heading text-center fw-bold">Before & After</p>
+                <p class="b-a-text text-secondary text-center">We don’t just talk the talk. We walk the walk. </p>
+            </div>
+            <div class="bef-aft-imagecontainer">
+                <!-- <img src="./images/bef-aft-p1.png" alt="BA-p1" class="BA-img">
+                <img src="./images/bef-aft-p2.png" alt="BA-p2" class="BA-img">
+                <img src="./images/bef-aft-p3.png" alt="BA-p3" class="BA-img"> -->
+                <div class="BA-container">
+                    <div class="comparison">
+                        <figure class="figA">
+                            <div id="handleA"></div>
+                            <div id="divisorA"></div>
+                        </figure>
+                        <input type="range" min="0" max="100" value="50" id="sliderA" oninput="moveDivisorA()">
+                    </div>
+                </div>
+                <div class="BA-container">
+                    <div class="comparison">
+                        <figure class="figB">
+                            <div id="handleB"></div>
+                            <div id="divisorB"></div>
+                        </figure>
+                        <input type="range" min="0" max="100" value="50" id="sliderB" oninput="moveDivisorB()">
+                    </div>
+                </div>
+                <div class="BA-container">
+                    <div class="comparison">
+                        <figure class="figC">
+                            <div id="handleC"></div>
+                            <div id="divisorC"></div>
+                        </figure>
+                        <input type="range" min="0" max="100" value="50" id="sliderC" oninput="moveDivisorC()">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blogs-section">
+        <div class="blogs-container">
+            <div class="blogs-heading-container">
+                <p class="blogs-heading fw-bold text-center">Latest News & Blogs</p>
+            </div>
+            <div class="blogs-card-container">
+                <div class="card, blogs-card">
+                    <img class="card-img-top" src="./images/blog-p1.png" alt="Card image">
+                    <div class="card-body , bcard-text-container">
+                        <p class="bcard-date text-secondary">April 13, 2024</p>
+                        <p class="bcard-text">Overcame breeding point concerns has terminate</p>
+                        <a href="#" class="bcard-btn">Read More ></a>
+                    </div>
+                </div>
+                <div class="card, blogs-card">
+                    <img class="card-img-top" src="./images/blog-p2.png" alt="Card image">
+                    <div class="card-body, bcard-text-container">
+                        <p class="bcard-date text-secondary">April 13, 2024</p>
+                        <p class="bcard-text">Minuter him own clothes but observe country</p>
+                        <a href="#" class="bcard-btn">Read More ></a>
+                    </div>
+                </div>
+                <div class="card, blogs-card">
+                    <img class="card-img-top" src="./images/blog-p3.png" alt="Card image">
+                    <div class="card-body, bcard-text-container">
+                        <p class="bcard-date text-secondary">April 13, 2024</p>
+                        <p class="bcard-text">Announcing if attachment resolution sentiments</p>
+                        <a href="#" class="bcard-btn">Read More ></a>
+                    </div>
+                </div>
+            </div>
+            <button class="blog-btn fw-bold">View All Blogs</button>
+        </div>
+    </section>
+
+    <section class="work-section">
+        <div class="wrok-container">
+            <div class="work-heading-container">
+                <p class="work-guarantee fw-bold">100% Satisfaction Guarantee.</p>
+                <p class="work-heading fw-bold">Our Work Speaks For Itself.</p>
+            </div>
+            <div class="work-img-container">
+                <img src="./images/work-p1.png" alt="work-p1">
+                <img src="./images/work-p2.png" alt="work-p2">
+                <img src="./images/work-p3.png" alt="work-p3">
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="faq-container">
+            <div class="faq-heading-container">
+                <p class="faq-heading fw-bold">Frequently Asked Questions</p>
+            </div>
+            <div class="faq-imgques-container">
+                <div class="faq-img-container">
+                    <img src="./images/faq-img.png" alt="faq-img" class="faq-img">
+                </div>
+                <div class="faq-que-container">
+                    <div class="faq-box-container">
+                        <div class="faq-box">
+                            <p class="faq-que">What services do you offer?</p>
+                            <img src="./images/plus-icon.png" alt="plus-icon" class="plus-icon">
+                        </div>
+                        <div class="acc-content mb-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+                    </div>
+
+                    <div class="faq-box-container">
+                        <div class="faq-box">
+                            <p class="faq-que">How do you determine the cost of cleaning services?</p>
+                            <img src="./images/plus-icon.png" alt="plus-icon" class="plus-icon">
+                        </div>
+                        <div class="acc-content mb-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+                    </div>
+                    <div class="faq-box-container">
+                        <div class="faq-box">
+                            <p class="faq-que">Do I need to be home during the cleaning?</p>
+                            <img src="./images/plus-icon.png" alt="plus-icon" class="plus-icon">
+                        </div>
+                        <div class="acc-content mb-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+                    </div>
+                    <div class="faq-box-container">
+                        <div class="faq-box">
+                            <p class="faq-que">What products do you use?</p>
+                            <img src="./images/plus-icon.png" alt="plus-icon" class="plus-icon">
+                        </div>
+                        <div class="acc-content mb-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+                    </div>
+                    <div class="faq-box-container">
+                        <div class="faq-box" style="margin-bottom: 0;">
+                            <p class="faq-que">How do I schedule or change a cleaning appointment?</p>
+                            <img src="./images/plus-icon.png" alt="plus-icon" class="plus-icon">
+                        </div>
+                        <div class="acc-content mb-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-message-section">
+        <div class="contact-message-container">
+            <div class="contact-container">
+                <div class="contact-heading-container">
+                    <p class="contact-heading fw-bold">Contact Us</p>
+                    <p class="contact-heading-text">Connect with our team and let us assign you a VIP account rep. </p>
+                </div>
+                <div class="contact-ways-container">
+                    <div class="contact-ways">
+                        <img src="./images/phone-icon.png" alt="phone-icon" class="contact-icons">
+                        <div class="contact-info">
+                            <p class="contact-way fw-bold">Phone</p>
+                            <p class="contact-through">+91 XXX-XXX-XXXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-ways">
+                        <img src="./images/email-icon.png" alt="email-icon" class="contact-icons">
+                        <div class="contact-info">
+                            <p class="contact-way fw-bold">Email</p>
+                            <p class="contact-through">abcd@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-ways">
+                        <img src="./images/address-icon.png" alt="address-icon" class="contact-icons">
+                        <div class="contact-info">
+                            <p class="contact-way fw-bold">Address</p>
+                            <p class="contact-through">1014 Oakland Market Rd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-container">
+                <div class="message-heading-container">
+                    <p class="message-heading fw-bold">Send Us Message</p>
+                    <p class="text-secondary">A account rep is standing by</p>
+                </div>
+                <div class="message-inputs-container">
+                    <div class="msgUpper-inputs-container">
+                        <div class="Label-Input-container">
+                            <label for="First Name">First Name</label>
+                            <input type="name" placeholder="First Name" class="sm-inputs">
+                        </div>
+                        <div class="Label-Input-container">
+                            <label for="Last Name">Last Name</label>
+                            <input type="name" placeholder="Last Name" class="sm-inputs">
+                        </div>
+                    </div>
+                    <div class="msgLower-inputs-container">
+                        <div class="Label-Input-container">
+                            <label for="Email">Email</label>
+                            <input type="email" placeholder="Email" class="sm-inputs">
+                        </div>
+                        <div class="Label-Input-container">
+                            <label for="Subject">Subject</label>
+                            <input type="subject" placeholder="Subject" class="sm-inputs">
+                        </div>
+                    </div>
+                    <div class="msgComment-input-container">
+                        <label for="Comments">Comments / Questions</label>
+                        <textarea name="Comments" class="lg-input" placeholder="Comments" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="message-btn-container">
+                    <button class="msg-btn fw-bold">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-section">
+        <footer>
+            <div class="upper-footer">
+                <div class="Upperfooter-text-container">
+                    <p class="upFooter-heading fw-bold text-light">Let's Schedule Your First Clean. <br> Special Offers
+                        Available.</p>
+                    <p class="upFooter-text text-light">Chat with one of our friendly customer support agents.</p>
+                </div>
+                <div class="Upperfooter-btn-container">
+                    <button class="call-btn fw-bold">Call</button>
+                    <button class="book-btn fw-bold">Book Now</button>
+                </div>
+            </div>
+            <div class="lower-footer">
+                <div class="logo-icon-container">
+                    <div class="logo-container">
+                        <img src="./images/footer-logo.png" alt="footer-logo" class="footer-logo">
+                        <p class="footer-logo-text text-light">We believe your home and office can be cleaner. Let us
+                            prove it. </p>
+                    </div>
+                    <div class="icon-container">
+                        <i class="fab fa-facebook text-primary"></i>
+                        <i class="fab fa-instagram" id="insta-icon"></i>
+                        <i class="fab fa-x-twitter text-light"></i>
+                    </div>
+                </div>
+
+                <div class="contact-us-container">
+                    <div class="contactus-heading-container">
+                        <p class="contactus-heading fw-bold text-light">Contact Us</p>
+                    </div>
+                    <div class="contactus-ways-container text-light">
+                        <div class="contactus-way">
+                            <i class="fas fa-envelope"></i>
+                            <p class="cu-way">abcd@email.com</p>
+                        </div>
+                        <div class="contactus-way">
+                            <i class="fas fa-phone"></i>
+                            <p class="cu-way">+91 XXX-XXX-XXXX</p>
+                        </div>
+                        <div class="contactus-way">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p class="cu-way">1014 Oakland Market Rd</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-link-container">
+                    <div class="quicklink-heading-container">
+                        <p class="quicklink-heading fw-bold text-light">Quick Links</p>
+                    </div>
+                    <div class="quicklink-nav-container text-light">
+                        <nav class="quicklink-nav">
+                            <a href="#" class="ql-nav-item">Home</a>
+                            <a href="#" class="ql-nav-item">About Us</a>
+                            <a href="#" class="ql-nav-item">Services</a>
+                            <a href="#" class="ql-nav-item">Location</a>
+                            <a href="#" class="ql-nav-item">Terms & Conditions</a>
+                            <a href="#" class="ql-nav-item">Privacy Policy</a>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="Res-Time-container">
+                    <div class="ResTime-heading-container">
+                        <p class="rs-heading fw-bold text-light">Residential Cleaning Hours</p>
+                    </div>
+                    <div class="ResTime-timing-container text-light">
+                        <p class="rs-days">Monday - Friday: 8:00am to 5:00 pm</p>
+                        <p class="rs-days">saturday: 8:00 am to 12:00 pm</p>
+                        <p class="rs-days">Sunday: Closed</p>
+                        <p class="rs-days">Commercial Hours: 24/7</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="copyright">
+                <hr>
+                <p>Copyright © 2024. All Rights Reserved</p>
+            </div>
+        </footer>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init(1000);
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
